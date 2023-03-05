@@ -1,0 +1,604 @@
+
+
+
+
+
+
+html {
+overflow-x: hidden;
+}
+
+
+#BodyBackground {
+  background-color:#7b2c6a;
+}
+
+#Navigation {
+  background-color:#622755;
+}
+
+.TitleBackgroundLine {
+  margin-bottom:-90px;
+  margin-left:-15px;
+}
+
+#SUBright8Piece::after {
+  padding-left:5px;
+  content:'8 pieces';
+  font-size:12px;
+  font-family:'Dosis';
+}
+
+#SUBright2Rolls::after {
+  margin-left:5px;
+  content:'2 rolls';
+  font-size:12px;
+  font-family:'Dosis';
+}
+
+.VEGdish::after {
+  content:url(../../assets/img/vegetarian-small.png);
+  margin-right:5px;
+}
+
+#SUBright3Rolls::after {
+  content:'3 rolls';
+  margin-left:5px;
+  font-size:12px;
+  font-family:'Dosis';
+}
+
+#SUBleft6pcs::before {
+  content:'6 pcs';
+  margin-right:5px;
+  font-size:12px;
+  font-family:'Dosis';
+}
+
+#SUBleft10pcs::before {
+  content:'10 pcs';
+  margin-right:5px;
+  font-size:12px;
+  font-family:'Dosis';
+}
+
+.SmTag::before {
+  content:'Sm';
+  margin-right:3px;
+  font-size:12px;
+}
+
+.LgTag::before {
+  content:'Lg';
+  margin-right:3px;
+  font-size:12px;
+}
+
+.AlignR {
+  float:right;
+}
+
+.FullTag::before {
+  content:'Full';
+  margin-right:3px;
+  margin-left: 5px;
+  font-size:12px;
+}
+
+.HalfTag::before {
+  content:'Half';
+  margin-right:3px;
+  font-size:12px;
+}
+
+#SUBright4Rolls::after {
+  content:'(4 rolls)';
+  margin-left:5px;
+  font-size:12px;
+}
+
+#SUBrightShrimpChickenBeef::after {
+  content:'Beef, Chicken, & Shrimp';
+  margin-left:5px;
+  font-size:12px;
+  font-family:'Dosis';
+}
+
+#SUBrightServes2::after {
+  content:'(serves two)';
+  font-size:12px;
+  font-family:'Dosis';
+}
+
+#InfoBarBackground {
+  background-color:#65a944;
+}
+
+#VegetarianDishKey::before {
+  content:url(../../assets/img/vegetarian-small.png);
+  margin-right:5px;
+}
+
+#FooterBackground {
+  background-color:#65a944;
+}
+
+#CreditBG {
+  background-color:#65a944;
+}
+
+#FooterCreditBG {
+  background-color:#65a944;
+}
+
+.ShareLarge {
+  margin-top:-38%;
+  margin-left:56%;
+}
+
+.hidden-xs.SocialMedia {
+  margin-left:56%;
+}
+
+.GreenP {
+  color:#65a944;
+}
+
+.BoneP {
+  color:#efe2d7;
+}
+
+.PurpleP {
+  color:#7b2c6a;
+}
+
+.MenuSectionTitle {
+  font-family:'Dosis';
+  font-size:36px;
+}
+
+#SubNavP {
+  font-family:'Dosis';
+  text-align:center;
+  font-size:17px;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+@media (min-width:768px) {
+  .MainP {
+    font-family:'Dosis';
+    font-size:14px;
+    margin-bottom:10px;
+    max-width:375px;
+  }
+}
+
+@media (max-width:767px) {
+  .MainP {
+    font-family:'Dosis';
+    font-size:16px;
+    margin-bottom:10px;
+    margin-left:20px;
+    margin-right:20px;
+  }
+}
+
+.MenuMainItem {
+  font-family:'Montserrat';
+  font-size:14px;
+  margin-left:-15px;
+  margin-bottom:-5px;
+  margin-top:5px;
+}
+
+.Prices {
+  font-family:'Dosis';
+  font-size:14px;
+  margin-left:-15px;
+  margin-bottom:-15px;
+}
+
+.SectionDescriptionP {
+  font-family:'Dosis';
+  line-height:16px;
+  font-size:13px;
+  margin-top:10px;
+  text-align: center;
+}
+
+.PricesSpan {
+  font-family:'Dosis';
+  font-size:14px;
+  margin-bottom:-15px;
+}
+
+.PricesSpanL {
+  font-family:'Dosis';
+  font-size:14px;
+  margin-bottom:-15px;
+}
+
+.ItemDescriptionP {
+  font-family:'Dosis';
+  font-size:12px;
+}
+
+.AddStuffInGreenP {
+  font-size:12px;
+  text-align:center;
+  font-family:'Dosis';
+  font-weight:700;
+}
+
+p {
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-right:0px;
+  margin-left:0px;
+}
+
+
+
+@media (min-width:768px) {
+  #LeftCol {
+    margin-left:-15px;
+    margin-right:15px;
+  }
+}
+
+@media (max-width:767px) {
+  .Nav {
+    font-family:'Montserrat';
+    font-size:medium;
+    text-align:center;
+    margin-bottom:10px;
+    margin-top:10px;
+  }
+}
+
+@media (max-width:991px) {
+  .Nav {
+    font-family:'Montserrat';
+    font-size:small;
+    text-align:center;
+    margin-bottom:10px;
+    margin-top:10px;
+  }
+}
+
+@media (min-width:992px) {
+  .Nav {
+    font-family:'Montserrat';
+    font-size:medium;
+    text-align:center;
+    margin-bottom:10px;
+    margin-top:10px;
+  }
+}
+
+
+
+
+@media (max-width:767px) {
+  .NavButtonSm {
+    border-bottom-color:#7b2c6a;
+    border-bottom-width:thin;
+    border-bottom-style:double;
+  }
+}
+
+
+
+@media (min-width:768px) {
+  .GreenInfoTitles {
+    font-family:'Montserrat';
+    font-size:2vw;
+    color:#547d3d;
+    white-space: nowrap;
+  }
+}
+
+.TitleBackgroundLineGreenBlock {
+  display: none;
+}
+
+@media (max-width:767px) {
+  .GreenInfoTitles {
+    font-family:'Montserrat';
+    font-size:24px;
+    color:#547d3d;
+    margin-top:15px;
+    margin-bottom:-15px;
+    white-space: nowrap;
+  }
+}
+
+
+
+.GreenBlockP {
+  margin-top:10px;
+  font-family:'Dosis';
+  font-size:13px;
+  margin-bottom:10px;
+}
+
+.DarkGreenP {
+  color:#547d3d;
+  font-family:'Montserrat';
+}
+
+#RawFoodP {
+  font-size:9px;
+  margin-bottom:10px;
+}
+
+@media (min-width:768px) {
+  .MainPFloat {
+    float:right;
+  }
+}
+
+#MainImage {
+  margin-top:-14%;
+}
+
+@media (min-width:992px) {
+  #ImprovingOurWorld {
+    margin-top:10%;
+  }
+}
+
+@media (max-width:991px) {
+  #ImprovingOurWorld {
+    margin-top:15%;
+  }
+}
+
+.ImprovingOurWorldP {
+  font-family:'Montserrat';
+  font-size:medium;
+  max-width:400px;
+  margin-bottom:10px;
+}
+
+.ForceL {
+  margin-left:-15px;
+}
+
+#EmailTextBox {
+  min-height:200px;
+  margin-bottom:50px;
+}
+
+#EmailInput {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+#NameInput {
+  margin-top:30px;
+}
+
+#EmailP {
+  font-family:'Montserrat';
+  font-size:16px;
+}
+
+.ForceDown {
+  margin-top:5px;
+}
+
+a:link {
+  color:#efe2d7;
+}
+
+a:visited {
+  color:#efe2d7;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#efe2d7;
+  text-decoration:none;
+}
+
+a:active {
+  color:#efe2d7;
+}
+
+
+
+
+
+
+
+a {
+  text-decoration:none;
+}
+
+#HeaderAddress {
+  color:green !important;
+  font-family:'Montserrat';
+  font-size:10px;
+  text-align:right;
+}
+
+#HeaderPhone {
+  font-family:'Montserrat';
+  font-size:16px;
+  text-align:right;
+  margin-top:5px;
+}
+
+#TopContainer {
+  margin-top:25px;
+}
+
+#XsmHeaderAddress {
+  font-family:'Montserrat';
+  font-size:small;
+  text-align:center;
+}
+
+#XsmHeaderPhone {
+  font-family:'Montserrat';
+  font-size:large;
+  text-align:center;
+}
+
+#ImprovingOurWorldLine {
+  max-width:400px;
+}
+
+#ShareYourHappinessLine {
+  max-width:400px;
+}
+
+#SocialMediaIconsSpacing {
+  display:flex;
+  justify-content:space-around;
+  margin-top:10px;
+  max-width:500px;
+}
+
+@media (max-width:991px) {
+  #QuestionsSection {
+    margin-top:36%;
+  }
+}
+
+@media (min-width:992px) {
+  #QuestionsSection {
+    margin-top:55%;
+  }
+}
+
+#FormMarginTop {
+  margin-top:40%;
+}
+
+#XsFormBackgroun {
+  background-color:#65a944;
+}
+
+#FooterP {
+  font-family:'Montserrat';
+  font-size:smaller;
+  text-align:center;
+  color:#622755;
+  margin-top:20px;
+  margin-bottom:50px;
+}
+
+#XsQuestionsP {
+  margin-bottom:30px;
+  font-family:'Montserrat';
+  font-size:14px;
+}
+
+#XsShareP1 {
+  font-family:'Montserrat';
+  font-size:20px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+#XsFooterAddress {
+  font-family:'Montserrat';
+  font-size:20px;
+  margin-bottom:10px;
+  color:#7b2c6a;
+}
+
+#XsTextInput {
+  min-height:300px;
+}
+
+#XsShareP2 {
+  font-family:'Montserrat';
+  font-size:20px;
+  margin-bottom:10px;
+}
+
+#XsFooterPhone {
+  font-family:'Montserrat';
+  font-size:37px;
+  color:#7b2c6a;
+  margin-bottom:25px;
+}
+
+#XsFooterSocialMediaSpacing {
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:25px;
+  margin-top:30px;
+  margin-right: 20%;
+  margin-left: 25%;
+}
+
+#ShareP1 {
+  font-family:'Montserrat';
+  font-size:20px;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+#FooterAddress {
+  font-family:'Montserrat';
+  font-size:20px;
+}
+
+#ShareP2 {
+  font-family:'Montserrat';
+  font-size:20px;
+  margin-top:10px;
+}
+
+#FooterPhone {
+  font-family:'Montserrat';
+  font-size:30px;
+}
+
+#MapMarginBottom {
+  margin-bottom:-50px;
+}
+
+#XsShareP {
+  font-size:34px;
+}
+
+@media (min-width:992px) {
+  #LargeCharityTitle {
+    font-size:47px;
+  }
+}
+
+@media (min-width:992px) {
+  #LargeCharityP1 {
+    font-size:23px;
+    max-width:550px;
+  }
+}
+
+@media (min-width:992px) {
+  #LargeCharityP2 {
+    font-size:25px;
+    max-width:550px;
+  }
+}
+
+@media (min-width:768px) {
+  .LcolSpaceToMatchRcol {
+    margin-top:20px;
+  }
+}
+
+@media (max-width:767px) {
+  .LcolSpaceToMatchRcol {
+    margin-left:0px;
+    width:95%;
+  }
+}

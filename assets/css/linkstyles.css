@@ -1,0 +1,96 @@
+.LargeHeaderAddress:link {
+  color:#65a944;
+}
+
+.LargeHeaderAddress:visited {
+  color:#65a944;
+  text decoration: none;
+}
+
+.LargeHeaderAddress:hover {
+  color:#efe2d7;
+  text-decoration:none;
+}
+
+.LargeHeaderAddress:active {
+  color:#547d3d;
+}
+
+
+
+.LargeFooterAddress:link {
+  color:#7b2c6a;
+}
+
+.LargeFooterAddress:visited {
+  color:#7b2c6a;
+  text decoration: none;
+}
+
+.LargeFooterAddress:hover {
+  color:#efe2d7;
+  text-decoration:none;
+}
+
+.LargeFooterAddress:active {
+  color:#622755;
+}
+
+
+.LargeFooterPhone:link {
+  color:#7b2c6a;
+}
+
+.LargeFooterPhone:visited {
+  color:#7b2c6a;
+  text decoration: none;
+}
+
+.LargeFooterPhone:hover {
+  color:#efe2d7;
+  text-decoration:none;
+}
+
+.LargeFooterPhone:active {
+  color:#622755;
+}
+
+
+
+.SmallFooterPhone:link {
+  color:#7b2c6a;
+}
+
+.SmallFooterPhone:visited {
+  color:#7b2c6a;
+  text decoration: none;
+}
+
+.SmallFooterPhone:hover {
+  color:#efe2d7;
+  text-decoration:none;
+}
+
+.SmallFooterPhone:active {
+  color:#622755;
+}
+
+
+
+.SmallFooterAddress:link {
+  color:#7b2c6a;
+}
+
+.SmallFooterAddress:visited {
+  color:#7b2c6a;
+  text decoration: none;
+}
+
+.SmallFooterAddress:hover {
+  color:#efe2d7;
+  text-decoration:none;
+}
+
+.SmallFooterAddress:active {
+  color:#622755;
+}
